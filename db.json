@@ -1,0 +1,125 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Adventure",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 2,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Travel",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image1.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 3,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Technology",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 4,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image3.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 5,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Adventure",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image4.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 6,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image5.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 7,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Technology",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image6.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 8,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image7.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 9,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image1_1.png",
+      "editorPick": "true"
+    },
+    {
+      "id": 10,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image_2.png",
+      "editorPick": "true"
+    },
+    {
+      "id": 11,
+      "date": "08.08.2021",
+      "title": "json-server",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2_1.png",
+      "editorPick": "true"
+    }
+  ]
+}
