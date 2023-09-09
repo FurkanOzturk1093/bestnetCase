@@ -9,6 +9,26 @@ export const api = createApi({
       query: () => "/",
       providesTags: ["Blogs"],
     }),
+    deleteBlog: build.mutation({
+      query: (id) => ({
+        url: `/${id}`,
+        method: "DELETE",
+        credentials: "include",
+      }),
+      invalidatesTags: ["Blogs"],
+    }),
+    createBlog: build.mutation({
+      query: (body) => ({
+        url: "/",
+        method: "POST",
+        body,
+      }),
+      invalidatesTags: ["Blogs"],
+    }),
   }),
 });
-export const { useGetBlogsQuery } = api;
+export const {
+  useGetBlogsQuery,
+  useDeleteBlogMutation,
+  useCreateBlogMutation,
+} = api;

@@ -1,56 +1,33 @@
 {
   "blogs": [
     {
-      "id": 1,
-      "date": "08.08.2021",
-      "title": "json-server",
-      "author": "typicode",
-      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "category": "Adventure",
-      "imageUrl": "https://www.linkpicture.com/q/Blog-Image.png",
-      "editorPick": "false"
-    },
-    {
-      "id": 2,
-      "date": "08.08.2021",
-      "title": "json-server",
-      "author": "typicode",
-      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "category": "Travel",
-      "imageUrl": "https://www.linkpicture.com/q/Blog-Image1.png",
-      "editorPick": "false"
-    },
-    {
       "id": 3,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Technology",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
       "editorPick": "false"
     },
     {
-      "id": 4,
-      "date": "08.08.2021",
-      "title": "json-server",
-      "author": "typicode",
-      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "category": "Fashion",
-      "imageUrl": "https://www.linkpicture.com/q/Blog-Image3.png",
-      "editorPick": "false"
-    },
-    {
       "id": 5,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Adventure",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image4.png",
       "editorPick": "false"
@@ -58,10 +35,15 @@
     {
       "id": 6,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image5.png",
       "editorPick": "false"
@@ -69,10 +51,15 @@
     {
       "id": 7,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Technology",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image6.png",
       "editorPick": "false"
@@ -80,10 +67,15 @@
     {
       "id": 8,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image7.png",
       "editorPick": "false"
@@ -91,10 +83,15 @@
     {
       "id": 9,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image1_1.png",
       "editorPick": "true"
@@ -102,10 +99,15 @@
     {
       "id": 10,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image_2.png",
       "editorPick": "true"
@@ -113,13 +115,79 @@
     {
       "id": 11,
       "date": "08.08.2021",
-      "title": "json-server",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-      "longText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image2_1.png",
       "editorPick": "true"
+    },
+    {
+      "id": 12,
+      "date": "08.08.2021",
+      "tags": [
+        "Photo",
+        "Design",
+        "Creative"
+      ],
+      "title": "Dream destinations to visit this year in Paris",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
+      "category": "Technology",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 14,
+      "date": "09.09.2023",
+      "tags": [
+        "Design",
+        "Creative",
+        "Photo"
+      ],
+      "title": "aksmdlasd",
+      "author": "furkan",
+      "shortText": "alksdjlkasjdlkasjd",
+      "longText": "alksdjlkasjdlkasjdlkasj",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": false
+    },
+    {
+      "id": 15,
+      "date": "09.09.2023",
+      "tags": [
+        "Design"
+      ],
+      "title": "alksjdlksdjflksdjflkjsdlkf",
+      "author": "furkan",
+      "shortText": "lkasjdlkasjfklsjdlkfjsldfk",
+      "longText": "alksdjlksdfjlkjdflksjdfkls",
+      "category": "Travel",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": false
+    },
+    {
+      "id": 16,
+      "date": "09.09.2023",
+      "tags": [
+        "Creative",
+        "Design"
+      ],
+      "title": "asjhdkjashdjkahsdkjahskdjahskd",
+      "author": "furkan",
+      "shortText": "kjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkj",
+      "longText": "kjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkj",
+      "category": "Fashion",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": false
     }
   ]
 }

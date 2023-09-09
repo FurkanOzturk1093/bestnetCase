@@ -3,17 +3,14 @@ import { useGetBlogsQuery } from "../redux/api/api";
 import image1 from "../images/Image.png";
 import image2 from "../images/Image2.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 const Landing = () => {
   const { data, isSuccess } = useGetBlogsQuery();
-  const categoryList = [
-    "All",
-    "Adventure",
-    "Travel",
-    "Fashion",
-    "Technology",
-    "Branding",
-  ];
+  const categoryList = ["All", "Adventure", "Travel", "Fashion", "Technology"];
+  const [category, setCategory] = useState("All");
   const editorPick = [];
+  console.log(data);
   if (isSuccess === true) {
     for (let i = 0; i < data.length; i++) {
       if (data[i].editorPick === "true") {
@@ -21,7 +18,7 @@ const Landing = () => {
       }
     }
   }
-  const PopularTopics = [];
+  let PopularTopics = [];
   if (isSuccess === true) {
     for (let i = 0; i < data.length; i++) {
       if (data[i].editorPick === "false") {
@@ -29,11 +26,11 @@ const Landing = () => {
       }
     }
   }
-  const [category, setCategory] = useState("All");
+
   const handleCategory = (event) => {
     setCategory(event.target.id);
   };
-  console.log(category);
+
   return (
     <div>
       <div
@@ -75,46 +72,56 @@ const Landing = () => {
               </button>
             ))}
           </div>
-          <p className=" pr-40">View All</p>
+          <Link
+            to="/blog/create"
+            className=" pr-40 text-xl italic text-green-700"
+          >
+            Create New Blog
+          </Link>
         </div>
       </div>
       <div className=" mt-8 px-20 flex flex-wrap  justify-evenly ">
         {isSuccess === true &&
-          PopularTopics.map((item) => (
-            <div key={item.id}>
-              {item.editorPick === "false" && category === "All" ? (
-                <div className=" relative p-10">
+          PopularTopics.map((item) =>
+            item.editorPick === "false" && category === "All" ? (
+              <div key={item.id}>
+                <div className=" relative p-10 max-w-[420px]">
                   <img src={item.imageUrl} alt={item.imageUrl} />
-                  <p className="rounded-lg  text-white absolute top-12 right-12 italic">
+                  <p className="rounded-lg  text-white absolute top-12 right-24 italic">
                     {item.category}
                   </p>
                   <p className=" py-4 text-sm text-slate-400">{item.date}</p>
-                  <p className="pb-2 text-2xl font-bold text-slate-800">
+                  <p className="pb-2 text-lg font-bold text-slate-800 max-w-[320px]">
                     {item.title}
                   </p>
                   <p className=" max-w-[310px] text-sm text-slate-400">
                     {item.shortText}
                   </p>
+                  <Link to={`/blog/${item.id}`}>
+                    <p className=" text-right"> Read More...</p>
+                  </Link>
                 </div>
-              ) : (
-                category === item.category && (
-                  <div className=" relative p-10">
+              </div>
+            ) : (
+              category === item.category && (
+                <Link to={`blog/${item.id}`}>
+                  <div key={item.id} className=" relative p-10">
                     <img src={item.imageUrl} alt={item.imageUrl} />
-                    <p className="rounded-lg  text-white absolute top-12 right-12 italic">
+                    <p className="rounded-lg  text-white absolute top-12 right-24 italic">
                       {item.category}
                     </p>
                     <p className=" py-4 text-sm text-slate-400">{item.date}</p>
-                    <p className="pb-2 text-2xl font-bold text-slate-800">
+                    <p className="pb-2 text-2xl font-bold text-slate-800 max-w-[320px]">
                       {item.title}
                     </p>
                     <p className=" max-w-[310px] text-sm text-slate-400">
                       {item.shortText}
                     </p>
                   </div>
-                )
-              )}
-            </div>
-          ))}
+                </Link>
+              )
+            )
+          )}
       </div>
       <div
         className=" relative text-white"
@@ -143,24 +150,27 @@ const Landing = () => {
         <div className=" flex justify-evenly flex-wrap text-white ">
           {isSuccess === true &&
             editorPick.map((item) => (
-              <div key={item.id} className="p-4 relative">
-                {item.editorPick === "true" && (
-                  <img src={item.imageUrl} alt={item.id} />
-                )}
-                <p className=" absolute top-6 right-8">{item.category}</p>
-                <p className=" text-slate-200  text-xs absolute top-32 left-10 ">
-                  {item.date}
-                </p>
-                <p className=" text-lg font-bold absolute top-40 left-10">
-                  {item.title}
-                </p>
-                <p className=" text-slate-200 text-sm absolute top-48 left-10 max-w-xs">
-                  {item.shortText}
-                </p>
-              </div>
+              <Link to={`blog/${item.id}`}>
+                <div key={item.id} className="p-4 relative">
+                  {item.editorPick === "true" && (
+                    <img src={item.imageUrl} alt={item.id} />
+                  )}
+                  <p className=" absolute top-6 right-8">{item.category}</p>
+                  <p className=" text-slate-200  text-xs absolute top-32 left-10 ">
+                    {item.date}
+                  </p>
+                  <p className=" text-lg font-bold absolute top-40 left-10">
+                    {item.title}
+                  </p>
+                  <p className=" text-slate-200 text-sm absolute top-48 left-10 max-w-xs">
+                    {item.shortText}
+                  </p>
+                </div>
+              </Link>
             ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
