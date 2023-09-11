@@ -5,16 +5,18 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
-    <div className=" pt-20">
+    <div className=" pt-20 tablet:text-xs">
       <div className="  bg-[#212529] text-white py-10">
-        <div className="flex justify-between max-w-7xl mx-auto">
+        <div className="flex justify-between  max-w-7xl mx-auto gap-4 ">
           <div>
-            <h3 className="py-2 text-lg font-bold">Contact the Publisher</h3>
-            <p className="py-2 text-[#E5E5E5]">furkanozturk1635@gmail.com</p>
+            <h3 className="tablet:text-sm text-lg font-bold">
+              Contact the Publisher
+            </h3>
+            <p className="py-2 text-[#E5E5E5]">alita99@gmail.com</p>
             <p className="py-2 text-[#E5E5E5]">+90552 820 93 13</p>
           </div>
           <div>
-            <h3 className=" text-lg font-bold py-2">Explorate</h3>
+            <h3 className=" tablet:text-sm text-lg font-bold ">Explorate</h3>
             <div className=" text-[#E5E5E5] ">
               <p className="py-2">About</p>
               <p className="py-2">Partners</p>
@@ -24,7 +26,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h3 className=" text-lg font-bold">Headquarter</h3>
+            <h3 className=" tablet:text-sm text-lg font-bold">Headquarter</h3>
             <p className="py-2 text-[#E5E5E5]">
               Macun Mah.
               <br /> 243.Sokak, <br /> Yenimahalle
@@ -32,8 +34,10 @@ const Footer = () => {
             </p>
           </div>
           <div className=" mr-16">
-            <h3 className=" text-lg font-bold pb-4">Connections</h3>
-            <div className=" flex gap-6">
+            <h3 className=" tablet:text-sm text-lg font-bold pb-4">
+              Connections
+            </h3>
+            <div className=" tablet:flex-col flex gap-6 tablet:items-center">
               <FacebookIcon fontSize="small" />
               <YouTubeIcon fontSize="small" />
               <TwitterIcon fontSize="small" />
@@ -43,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" bg-[#343A40]">
-        <div className=" py-4 flex justify-between max-w-7xl mx-auto text-white">
+        <div className=" pb-8 pt-2 flex justify-between max-w-7xl mx-auto text-white">
           <p className="font-bold text-sm">2023 | Furkan ÖZTÜRK</p>
           <p className="text-sm">Copyright @ 2023</p>
         </div>

@@ -5,6 +5,7 @@ import image2 from "../images/Image2.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import { motion } from "framer-motion";
 const Landing = () => {
   const { data, isSuccess } = useGetBlogsQuery();
   const categoryList = ["All", "Adventure", "Travel", "Fashion", "Technology"];
@@ -41,24 +42,26 @@ const Landing = () => {
           height: "600px",
         }}
       >
-        <p className=" text-4xl text-white absolute bottom-60 left-40">
-          Richird Norton photorealistic <br /> rendering as real photos
-        </p>
-        <div className=" flex items-center absolute bottom-40 left-40 gap-4">
-          <p>08.08.2021</p>
-          <hr className=" w-12" />
-          <p className=" max-w-xs text-sm">
-            Progressively incentivize cooperative systems through technically
-            sound functionalities. The credibly productivate seamless data.
+        <div className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+          <p className=" text-4xl text-white py-4">
+            Richird Norton photorealistic <br /> rendering as real photos
           </p>
+          <div className=" flex items-center gap-4">
+            <p>08.08.2021</p>
+            <hr className=" w-12" />
+            <p className=" max-w-xs text-sm">
+              Progressively incentivize cooperative systems through technically
+              sound functionalities. The credibly productivate seamless data.
+            </p>
+          </div>
         </div>
       </div>
-      <div>
-        <h1 className=" text-4xl py-20 px-40 mt-10 font-bold">
+      <div className=" tablet:flex tablet:flex-col target:items-center tablet:gap-4">
+        <h1 className=" text-4xl py-20 px-40 mt-10 font-bold tablet:p-0 tablet:text-center">
           Popular Topics
         </h1>
-        <div className=" text-sm font-bold flex justify-between">
-          <div className=" flex pl-40 gap-5">
+        <div className="  text-sm font-bold flex justify-between tablet:flex-col tablet:items-center">
+          <div className=" flex pl-40 gap-5 tablet:flex-col tablet:items-center tablet:p-0">
             {categoryList.map((item) => (
               <button
                 key={item}
@@ -74,17 +77,24 @@ const Landing = () => {
           </div>
           <Link
             to="/blog/create"
-            className=" pr-40 text-xl italic text-green-700"
+            className=" pr-40 text-xl italic text-green-700 tablet:p-0 tablet:pt-8"
           >
             Create New Blog
           </Link>
         </div>
       </div>
-      <div className=" mt-8 px-20 flex flex-wrap  justify-evenly ">
+      <div className=" mt-8 px-20 flex flex-wrap  justify-evenly tablet:p-0 ">
         {isSuccess === true &&
           PopularTopics.map((item) =>
             item.editorPick === "false" && category === "All" ? (
-              <div key={item.id}>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5, x: -400 }}
+                whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                animate={{ x: -200, scale: 1 }}
+                transition={{ ease: "easeOut", duration: item.id * 0.1 }}
+                viewport={{ once: true }}
+                key={item.id}
+              >
                 <div className=" relative p-10 max-w-[420px]">
                   <img src={item.imageUrl} alt={item.imageUrl} />
                   <p className="rounded-lg  text-white absolute top-12 right-24 italic">
@@ -101,11 +111,19 @@ const Landing = () => {
                     <p className=" text-right"> Read More...</p>
                   </Link>
                 </div>
-              </div>
+              </motion.div>
             ) : (
               category === item.category && (
                 <Link to={`blog/${item.id}`}>
-                  <div key={item.id} className=" relative p-10">
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.5, x: -400 }}
+                    whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                    animate={{ x: -200, scale: 1 }}
+                    transition={{ ease: "easeOut", duration: item.id * 0.1 }}
+                    viewport={{ once: true }}
+                    key={item.id}
+                    className=" relative p-10"
+                  >
                     <img src={item.imageUrl} alt={item.imageUrl} />
                     <p className="rounded-lg  text-white absolute top-12 right-24 italic">
                       {item.category}
@@ -117,7 +135,7 @@ const Landing = () => {
                     <p className=" max-w-[310px] text-sm text-slate-400">
                       {item.shortText}
                     </p>
-                  </div>
+                  </motion.div>
                 </Link>
               )
             )
@@ -131,18 +149,18 @@ const Landing = () => {
           height: "600px",
         }}
       >
-        <p className=" text-center text-4xl text-white absolute  top-1/3 left-1/2 -translate-y-1/2 -translate-x-1/2">
-          Richird Norton photorealistic <br /> rendering as real photos
-        </p>
-        <div className=" mx-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 gap-4">
-          <p className=" max-w-xs text-sm text-center">
-            Progressively incentivize cooperative systems through technically
-            sound functionalities. The credibly productivate seamless data.
+        <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+          <p className=" text-center text-4xl text-white ">
+            Richird Norton photorealistic <br /> rendering as real photos
           </p>
-          <hr className=" w-12 text-center absolute top-24 left-1/2  -translate-y-1/2 -translate-x-1/2" />
-          <p className="absolute top-32 text-center  left-1/2  -translate-y-1/2 -translate-x-1/2 ">
-            08.08.2021
-          </p>
+          <div className=" mx-auto  gap-4">
+            <p className=" max-w-xs text-sm text-center py-2 mx-auto">
+              Progressively incentivize cooperative systems through technically
+              sound functionalities. The credibly productivate seamless data.
+            </p>
+            <hr className=" w-12 text-center mx-auto py-2 " />
+            <p className="text-center py-2 ">08.08.2021</p>
+          </div>
         </div>
       </div>
       <div>
@@ -151,7 +169,15 @@ const Landing = () => {
           {isSuccess === true &&
             editorPick.map((item) => (
               <Link to={`blog/${item.id}`}>
-                <div key={item.id} className="p-4 relative">
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.5, x: -400 }}
+                  whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                  animate={{ x: -200, scale: 1 }}
+                  transition={{ ease: "easeOut", duration: item.id * 0.1 }}
+                  viewport={{ once: true }}
+                  key={item.id}
+                  className="p-4 relative"
+                >
                   {item.editorPick === "true" && (
                     <img src={item.imageUrl} alt={item.id} />
                   )}
@@ -165,7 +191,7 @@ const Landing = () => {
                   <p className=" text-slate-200 text-sm absolute top-48 left-10 max-w-xs">
                     {item.shortText}
                   </p>
-                </div>
+                </motion.div>
               </Link>
             ))}
         </div>

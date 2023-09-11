@@ -1,29 +1,45 @@
 {
   "blogs": [
     {
-      "id": 3,
+      "id": 1,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
       "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
-      "category": "Technology",
+      "category": "Adventure",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image1.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 2,
+      "date": "08.08.2021",
+      "tags": ["Photo", "Design", "Creative"],
+      "title": "Dream destinations to visit this year in Paris",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
+      "category": "Travel",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
+      "editorPick": "false"
+    },
+    {
+      "id": 3,
+      "date": "08.08.2021",
+      "tags": ["Photo", "Design", "Creative"],
+      "title": "Dream destinations to visit this year in Paris",
+      "author": "typicode",
+      "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "longText": "Seamlessly syndicate cutting-edge architectures rather than collaborative collaboration and idea-sharing. Proactively incubate visionary interfaces whereas premium benefits. Seamlessly negotiate ubiquitous leadership skills rather than parallel ideas. Dramatically visualize superior interfaces for best-of-breed alignments. Synergistically formulate performance based users through customized relationships. Interactively deliver cross-platform ROI via granular systems. Intrinsicly enhance effective initiatives vis-a-vis orthogonal outsourcing. Rapidiously monetize market-driven opportunities with multifunctional users. Collaboratively enhance visionary opportunities through revolutionary schemas. Progressively network just in time customer service without real-time scenarios.Synergistically drive e-business leadership with unique synergy. Compellingly seize market positioning ROI and bricks-and-clicks e-markets. Proactively myocardinate timely platforms through distributed ideas. Professionally optimize enabled core competencies for leading-edge sources. Professionally enhance stand-alone leadership with innovative synergy. Rapidiously generate backend experiences vis-a-vis long-term high-impact relationships. Authoritatively supply market-driven mindshare and bricks-and-clicks opportunities. Holisticly create diverse innovation through adaptive communities. Efficiently empower seamless meta-services with impactful opportunities. Distinctively transition virtual outsourcing with focused e-tailers.“ Monotonectally seize superior mindshare rather than efficient technology. ” Compellingly enhance seamless resources through competitive content. Continually actualize 24/365 alignments for resource-leveling platforms. Energistically enhance high standards in models and professional expertise. Intrinsicly iterate extensible metrics for prospective opportunities. Continually develop leading-edge experiences through quality e-services.",
+      "category": "Travel",
+      "imageUrl": "https://www.linkpicture.com/q/Blog-Image3.png",
       "editorPick": "false"
     },
     {
       "id": 5,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -35,11 +51,7 @@
     {
       "id": 6,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -51,11 +63,7 @@
     {
       "id": 7,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -67,11 +75,7 @@
     {
       "id": 8,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -83,11 +87,7 @@
     {
       "id": 9,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -99,11 +99,7 @@
     {
       "id": 10,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -115,11 +111,7 @@
     {
       "id": 11,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -131,11 +123,7 @@
     {
       "id": 12,
       "date": "08.08.2021",
-      "tags": [
-        "Photo",
-        "Design",
-        "Creative"
-      ],
+      "tags": ["Photo", "Design", "Creative"],
       "title": "Dream destinations to visit this year in Paris",
       "author": "typicode",
       "shortText": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
@@ -145,49 +133,16 @@
       "editorPick": "false"
     },
     {
-      "id": 14,
+      "id": 13,
       "date": "09.09.2023",
-      "tags": [
-        "Design",
-        "Creative",
-        "Photo"
-      ],
-      "title": "aksmdlasd",
+      "tags": ["Photo", "Creative", "Design"],
+      "title": "Deneme",
       "author": "furkan",
-      "shortText": "alksdjlkasjdlkasjd",
-      "longText": "alksdjlkasjdlkasjdlkasj",
+      "shortText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus iaculis ipsum, ac mattis tortor pellentesque eu. Curabitur convallis maximus sem, sit amet placerat mi feugiat sed. Phasellus in pellentesque dui.",
+      "longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus iaculis ipsum, ac mattis tortor pellentesque eu. Curabitur convallis maximus sem, sit amet placerat mi feugiat sed. Phasellus in pellentesque dui. Curabitur volutpat et ex vel finibus. Mauris risus diam, facilisis quis nulla quis, eleifend hendrerit velit. Praesent ligula ipsum, ullamcorper ac rhoncus eu, consequat vitae metus. Proin eget blandit risus.  In id ultricies augue. Maecenas luctus, augue et dignissim tempus, est nibh pharetra lacus, at fermentum dui tellus sit amet turpis. Suspendisse lobortis dictum ex, ut pulvinar enim tincidunt eget. Duis id euismod ipsum. Cras dignissim est in dolor convallis, sed ornare lectus fringilla. Nam mi lorem, ullamcorper laoreet odio vitae, bibendum dictum felis. Etiam venenatis felis magna, et commodo ex porta eu. Integer tempus tristique pulvinar. Ut mollis sit amet urna id molestie. Sed quis velit sit amet lectus tempus sagittis ac sed magna. Vivamus gravida est sit amet nisl tincidunt scelerisque. Fusce tempus ultrices velit sit amet sodales. Suspendisse mattis dui sapien, nec molestie metus facilisis eleifend.  Duis elementum erat ac tortor ultrices, sed gravida quam iaculis. Pellentesque euismod rutrum odio, eu aliquet felis porttitor a. Donec sit amet odio molestie, vehicula nisi et, gravida purus. Quisque mi mauris, tincidunt et consectetur vel, euismod in erat. Phasellus vitae condimentum massa. Nulla facilisi. Aenean auctor tellus id urna vehicula feugiat. Duis maximus tristique magna, eget euismod nunc placerat eget. Vivamus nec ultrices turpis.  Praesent vel felis nec nunc ultricies accumsan eget eu nibh. Duis quis eros dapibus, sagittis odio a, laoreet ex. Proin venenatis auctor interdum. Morbi elementum velit eros, quis auctor mauris accumsan non. Quisque dolor lectus, porta at lobortis sed, efficitur sit amet elit. Nulla ex lacus, pellentesque quis ipsum a, molestie rutrum est. Quisque laoreet imperdiet nunc, non egestas felis rhoncus vel. Maecenas tincidunt eros finibus pulvinar venenatis. Proin facilisis leo ac risus molestie, non euismod felis sagittis. Quisque iaculis lorem ligula, quis dictum metus ultricies vel. Integer suscipit fermentum dolor, nec commodo urna venenatis id.",
       "category": "Fashion",
       "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
-      "editorPick": false
-    },
-    {
-      "id": 15,
-      "date": "09.09.2023",
-      "tags": [
-        "Design"
-      ],
-      "title": "alksjdlksdjflksdjflkjsdlkf",
-      "author": "furkan",
-      "shortText": "lkasjdlkasjfklsjdlkfjsldfk",
-      "longText": "alksdjlksdfjlkjdflksjdfkls",
-      "category": "Travel",
-      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
-      "editorPick": false
-    },
-    {
-      "id": 16,
-      "date": "09.09.2023",
-      "tags": [
-        "Creative",
-        "Design"
-      ],
-      "title": "asjhdkjashdjkahsdkjahskdjahskd",
-      "author": "furkan",
-      "shortText": "kjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkj",
-      "longText": "kjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkjkjdkfdafşksjdlkfdjdslkfjlkj",
-      "category": "Fashion",
-      "imageUrl": "https://www.linkpicture.com/q/Blog-Image2.png",
-      "editorPick": false
+      "editorPick": "false"
     }
   ]
 }

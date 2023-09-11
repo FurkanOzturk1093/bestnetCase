@@ -5,19 +5,26 @@ import image from "../images/Image3.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PinterestIcon from "@mui/icons-material/Pinterest";
+import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import Footer from "./Footer";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useDeleteBlogMutation } from "../redux/api/api";
+import { toast } from "react-toastify";
+
 const SingleBlogs = () => {
   let { id } = useParams();
   const { data, isSuccess } = useGetBlogsQuery();
   const navigate = useNavigate();
-  let singleBlog = isSuccess && data[id - 1];
+  let singleBlog = isSuccess && data.filter((item) => item.id == id);
   const [deletePost, response] = useDeleteBlogMutation();
   function handleDelete(id) {
     deletePost(id);
+    toast.success("Deleted  blog successfully", {
+      position: toast.POSITION.TOP_LEFT,
+    });
     navigate("/");
   }
+  console.log(singleBlog);
   return (
     isSuccess === true && (
       <div>
@@ -30,24 +37,32 @@ const SingleBlogs = () => {
           }}
         >
           <div className=" max-w-md absolute bottom-1/2 right-1/2 text-center translate-y-1/2 translate-x-1/2">
-            <p className=" py-4 "> {singleBlog.category} </p>
-            <p className="py-2 text-4xl"> {singleBlog.title} </p>
+            <p className=" py-4 "> {singleBlog[0].category} </p>
+            <p className="py-2 text-4xl"> {singleBlog[0].title} </p>
             <p className="py-2 text-sm text-gray-300 ">
-              {singleBlog.shortText}
+              {singleBlog[0].shortText}
             </p>
-            <p className="py-2 text-sm"> By {singleBlog.author} </p>
+            <p className="py-2 text-sm"> By {singleBlog[0].author} </p>
           </div>
+          <p
+            onClick={() => navigate("/")}
+            className=" cursor-pointer absolute top-5 left-5"
+          >
+            <ArrowCircleLeftIcon fontSize="large" />
+          </p>
         </div>
-        <div className=" flex justify-evenly mt-20 max-w-7xl mx-auto">
-          <div className=" flex justify-evenly w-40 gap-2">
-            <p>{singleBlog.date}</p>
-            <p className=" inline-flex">5 minutes</p>
+        <div className=" flex justify-evenly mt-20 max-w-7xl mx-auto tablet:flex-col tablet:items-center tablet:gap-7">
+          <div className=" flex justify-evenly w-40 gap-2 text-sm">
+            <p>{singleBlog[0].date}</p>
+            <p className=" inline-flex ">5 minutes</p>
           </div>
           <div className=" max-w-5xl mx-auto">
-            <p className="   leading-7 text-slate-700">{singleBlog.longText}</p>
+            <p className="   leading-7 text-slate-700 tablet:text-sm tablet:p-4">
+              {singleBlog[0].longText}
+            </p>
             <div className=" flex  gap-4 my-10">
               {isSuccess &&
-                singleBlog.tags.map((item) => (
+                singleBlog[0].tags.map((item) => (
                   <div
                     key={item}
                     className=" text-xs w-16 border rounded-lg py-1 px text-center"
@@ -61,7 +76,7 @@ const SingleBlogs = () => {
             </button>
             <hr className="max-w-5xl pt-20 " />
             <p className=" text-sm font-bold">
-              By {isSuccess && singleBlog.author}
+              By {isSuccess && singleBlog[0].author}
             </p>
             <div className=" flex justify-between items-center pb-24">
               <p className=" text-sm text-[#6C757D]"> Thinker & Designer</p>
@@ -76,15 +91,14 @@ const SingleBlogs = () => {
         <div className="bg-[#f3eded42] ">
           <div className=" max-w-7xl mx-auto">
             <h1 className=" text-lg font-bold pt-24 pb-12">Related Posts</h1>
-            <div className=" flex gap-8  flex-wrap text-white ">
+            <div className=" flex gap-8  flex-wrap text-white tablet:flex-col tablet:items-center ">
               {isSuccess === true &&
                 data.map(
                   (item) =>
-                    item.category === singleBlog.category && (
+                    item.category === singleBlog[0].category && (
                       <div key={item.id} className="relative">
                         <img
-                          width="390px"
-                          height="310px"
+                          style={{ width: "390px", height: "390px" }}
                           src={item.imageUrl}
                           alt={item.id}
                         />
@@ -101,6 +115,12 @@ const SingleBlogs = () => {
                         <p className=" text-slate-200 text-sm absolute top-56 left-10 max-w-xs">
                           {item.shortText}
                         </p>
+                        <Link
+                          to={`/blog/${item.id}`}
+                          className=" text-right text-slate-200 text-sm absolute bottom-7 left-10 max-w-xs"
+                        >
+                          Read More...
+                        </Link>
                       </div>
                     )
                 )}
